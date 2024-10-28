@@ -19,7 +19,7 @@ body {
 }
 
 .task-container {
-    background: linear-gradient(90deg, #000, #313133);
+    background: black;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -54,7 +54,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #3a4549;
+    background-color: black; /* Set background to black */
+    border: 2px solid white; /* Add a white border */
     padding: 20px;
     border-radius: 15px;
     margin-bottom: 10px; /* Ensure proper spacing between tasks */
@@ -82,8 +83,8 @@ p {
 }
 
 .claim-button {
-    background-color: #000000;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 8px 12px;
     border-radius: 20px;
@@ -109,4 +110,3 @@ p {
     width: 40px;
     height: 40px;
 }
-
