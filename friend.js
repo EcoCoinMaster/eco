@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Set up the invite button to share invite link via Telegram
     inviteButton.addEventListener("click", () => {
-        const inviteLink = `${window.location.origin}/friend.html?referrer=${userName}`;
+        // Replace "https://yourdomain.com" with your actual URL
+        const inviteLink = `https://t.me/EcoCoinMaster_bot/friend.html?referrer=${userName}`;
         const telegramShareUrl = `https://t.me/share/url?url=${encodeURIComponent(inviteLink)}&text=${encodeURIComponent("Join me on Lions Wallet and earn bonus Lions!")}`;
 
         // Open Telegram share URL
